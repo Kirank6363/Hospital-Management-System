@@ -1,0 +1,23 @@
+package com.kiran.hospital.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class LoginResponseDto {
+	
+	private String message;
+	
+	private String username;
+	
+	private String token;
+
+}
