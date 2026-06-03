@@ -158,4 +158,4 @@ Do not send an old or invalid token to `/auth/login`.
 
 ## Author
 
-Kiran
+Kiran Kumari
